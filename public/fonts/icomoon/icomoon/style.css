@@ -1366,7 +1366,7 @@
     content: "\ea1f";
 }
 .icon-suitcase:before {
-    content: "\ea20";
+    /* content: "\ea20"; */
 }
 .icon-swap:before {
     content: "\ea21";

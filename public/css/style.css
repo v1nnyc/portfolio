@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+.name {
+  font-family: 'Rubik', sans-serif !important;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #876AED;
@@ -105,7 +109,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: linear-gradient(137deg, rgba(255,255,255,1) 0%, rgb(90 50 176 / 75%) 100%);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -202,21 +206,20 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 14px;
   }
 }
-#fh5co-header .display-tc .profile-thumb,
-.fh5co-cover .display-tc .profile-thumb {
-  background-size: cover !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
+#fh5co-header .display-tc .profile, 
+.fh5co-cover .display-tc .profile{
   height: 200px;
   width: 200px;
+  object-fit: cover;
+  object-position: 20% 10%;
   margin: 0 auto;
   margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  border-radius: 15px;
 }
+
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
   color: #fff;
@@ -320,6 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .info {
+  height: 250px;
   margin: 0;
   padding: 0;
   width: 90%;
@@ -832,6 +836,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   height: 300px;
+  border-radius: 15px 15px 0 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
@@ -856,6 +861,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 0% 0% 15px 15px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-text {
@@ -887,6 +893,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text .stuff li:first-child {
   margin-left: 0;
 }
+.fh5co-blog .blog-text .stuff .award {
+  color: rgb(255, 165, 0.3);
+  float: left !important;
+}
 .fh5co-blog .blog-text .stuff li:last-child {
   float: right;
 }
@@ -897,12 +907,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 0;
   padding-left: 10px;
 }
-.fh5co-blog .blog-text .stuff li i {
-  font-size: 14px;
-  padding-right: 5px;
-}
 .fh5co-blog .blog-text h3 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
