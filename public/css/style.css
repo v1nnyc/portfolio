@@ -381,6 +381,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-social-icons li a i {
   font-size: 20px;
 }
+.fh5co-social-icons li a i:hover {
+  transition: .7s all;
+  -webkit-transition: .7s all; 
+  -moz-transition: .7s all; 
+  -ms-transition: .7s all;  
+  -o-transition: .7s all;  
+  color: rgb(252, 225, 255);
+}
 
 #fh5co-about .fh5co-social-icons {
   margin: 0;
@@ -603,8 +611,20 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-body > p,
 .timeline-body > ul {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
+
+.timeline-body > ul {
+  padding-left: 15px;
+}
+
+.timeline-body > ul:before{
+  content:attr(aria-label);
+  font-size: 100%;
+  font-weight: bold;
+  margin-left: -15px;
+}
+
 
 .timeline-body > p + p {
   margin-top: 5px;
