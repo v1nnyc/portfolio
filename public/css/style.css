@@ -1190,6 +1190,12 @@ input[type="text"] {
   outline: none !important;
 }
 
+.btn-resume:hover {
+  background: #fce1ff !important;
+  color: white !important;
+  box-shadow: 5px 5px 5px grey !important;
+}
+
 .btn-primary {
   background: #baa7fd;
   color: #fff;
