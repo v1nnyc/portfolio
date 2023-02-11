@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-transition: .7s all; 
   -ms-transition: .7s all;  
   -o-transition: .7s all;  
-  color: rgb(252, 225, 255);
+  color: #fce1ff;
 }
 
 #fh5co-about .fh5co-social-icons {
@@ -557,6 +557,45 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+.timeline-badge.timeline-badge-1 {
+  background-color: #8a72c6 !important;
+}
+.timeline-badge.timeline-badge-2 {
+  background-color: #8e77cb !important;
+}
+.timeline-badge.timeline-badge-3 {
+  background-color: #927cd0 !important;
+}
+.timeline-badge.timeline-badge-4 {
+  background-color: #9681d5 !important;
+}
+.timeline-badge.timeline-badge-5 {
+  background-color: #9a86da !important;
+}
+.timeline-badge.timeline-badge-6 {
+  background-color: #9e8adf !important;
+}
+.timeline-badge.timeline-badge-7 {
+  background-color: #a28fe4 !important;
+}
+.timeline-badge.timeline-badge-8 {
+  background-color: #a793e9 !important;
+}
+.timeline-badge.timeline-badge-9 {
+  background-color: #ac98ee !important;
+}
+.timeline-badge.timeline-badge-10 {
+  background-color: #b09df3 !important;
+}
+.timeline-badge.timeline-badge-11 {
+  background-color: #b5a2f9 !important;
+}
+.timeline-badge.timeline-badge-12 {
+  background-color: #baa7fd !important;
+}
+
+
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-badge {
     margin-left: -10px !important;
@@ -698,19 +737,28 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: none;
 }
 .progress-bar.progress-bar-1 {
-  background-color: #2980b9 !important;
+  background-color: #74ff4a !important;
 }
 .progress-bar.progress-bar-2 {
-  background-color: #c0392b !important;
+  background-color: #a3ff60 !important;
 }
 .progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
+  background-color: #d2ff76 !important;
 }
 .progress-bar.progress-bar-4 {
-  background-color: #8e44ad !important;
+  background-color: #ffff8c !important;
 }
 .progress-bar.progress-bar-5 {
-  background-color: #27ae60 !important;
+  background-color: #8cff55 !important;
+}
+.progress-bar.progress-bar-6 {
+  background-color: #bbff6b !important;
+}
+.progress-bar.progress-bar-7 {
+  background-color: #e9ff81 !important;
+}
+.progress-bar.progress-bar-8 {
+  background-color: #edff63 !important;
 }
 
 .chart {
@@ -857,6 +905,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 300px;
   border-radius: 15px 15px 0 0;
+  /* background-color: #c8e6c9; */
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-bg {
